@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Raleway:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+.clearfix {
+    clear: both;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    line-height: 25px;
+    color: purple;
+    background-image: linear-gradient(rgba(137, 137, 137, 0.2), rgb(74, 0, 87)), url(../images/background.jpg) ;
+    display: inline-block;
+    background-size: 100%;
+    padding-bottom: 5%;
+    background-position: cover;
+}
+img {
+    /* -webkit-filter: drop-shadow(5px 5px 1px #cbb5d8);
+    filter: drop-shadow(1px 1px 5px #cbb5d8); */
+}
+.title{
+    font-size: 1.5em;
+    margin-right: 30vw;
+    font-weight: bold;
+    color: #263559;
+    font-family: 'Gloock', serif;
+    padding-left: 100px;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.15em;
+    text-align: left;
+}
+h1 {
+    font-size: 50px;
+    font-family: 'Gloock', serif;
+    text-align: center;
+
+}
+h2 {
+    font-size: 35px;
+    font-family: 'Gloock', serif;
+    color: purple;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 40px;
+
+}
+h3 {
+    font-size: 30px;
+    font-family: 'Gloock', serif;
+    text-align: center;
+    color: #263559;
+    padding-top: 30px;
+    
+}
+
+h4 {
+    font-size: 20px;
+    font-family: 'Gloock', serif;
+    text-align: left;
+    color: #263559;
+    padding-top: 30px;
+    
+}
+
+p {
+    color: #263559;
+}
+
+img {
+    width: 100%;
+}
+
+.shadow {
+    border-radius: 10px;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: rgb(228, 228, 228);
+}
+
+
+
+.title2 {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    /* padding: 40px; */
+}
+
+
+.witchg1 {
+    width: 100px;
+    float: left;
+}
+
+.witchg2 {
+    width: 100px;
+    float: right;
+}
+
+.intro {
+    padding: 1vw;
+
+}
+iframe{
+    border-radius: 20px;
+}
+.map {
+    float: right;
+    margin-right: 9.6vw;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li{
+    display: inline-block;
+    padding-right: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    color: black;
+    /* transition: 0.5s; */
+
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: purple;
+    background-color: pink;
+    font-weight: bold;
+}
+
+.left {
+    float: left;
+    width: 40%;
+    padding: 5%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.right {
+    float: right;
+    width: 40%;
+    padding: 5%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.one {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+.one2 {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.one3 {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+.one4 {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 80px;
+}
+
+.left2 {
+    float: left;
+    width: 40%;
+    padding: 5%;
+    padding-top: 1px;
+    padding-bottom: 10px;
+}
+
+.right2 {
+    float: right;
+    width: 40%;
+    padding: 5%;
+    padding-top: 1px;
+    padding-bottom: 10px;
+}
+
+.three {
+    width: 27%;
+    float: left;
+    padding: 3%;
+}
+
+.three img {
+    width: 40%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.timeline {
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 5%;
+}
+
+.pl{
+    float: left;
+    width: 40%;
+    margin-left: 7%;
+}
+.pr{
+    float: right;
+    width: 40%;
+    margin-right: 7%;
+}
+.pr2{
+    margin-top: 5vw;
+    float: right;
+    width: 40%;
+    margin-right: 7vw;
+}
+.pr3{
+    padding-top: 8vw;
+    float: right;
+    width: 40%;
+    margin-right: 7vw;
+}
+.pm{
+    padding-left: 10vw;
+    padding-right: 10vw;
+
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+/* img[src*="Title-left.png"] {
+    width: 60px;
+
+}
+h1 img[src*="Title-right.png"] {
+    width: 60px;
+} */
+
+.witches1 img {
+    width: 150px;
+}
+.witches2 {
+    padding-right: 5.5vw;
+    margin-top: 6vw;
+    margin-bottom: 5vw;
+}
+.witches2 img {
+    width: 150px;
+}
+.witchexample1 {
+    float: right;
+
+    width: 40%;
+    padding-right: 5.5vw;
+    padding-top: 4vw;
+}
+.witchexample2 {
+    float: right;
+
+    width: 40%;
+    padding-right: 5.5vw;
+    padding-top: 4vw;
+}
+.witchexample3 {
+    float: left;
+
+    width: 40%;
+    padding-left: 5.5vw;
+    padding-top: 4vw;
+}
+.witchexampletext {
+    float: left;
+
+    width: 40%;
+    padding-left: 5.5vw;
+    padding-top: 4vw;
+}
+.witchexampletext img{
+    width: 200px;
+    height: 337.13px;
+}
+.barchart{
+    padding-top: 5vw;
+}
+.barchart img{
+    width: 640px;
+}
+.correlations{
+    padding-top: 5vw;
+}
