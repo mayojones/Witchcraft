@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Raleway:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+.clearfix {
+    clear: both;
+}
+
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+/* Fonts */
+p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.15em;
+    text-align: left;
+    color: #263559;
+}
+h1 {
+    font-size: 50px;
+    font-family: 'Gloock', serif;
+    text-align: center;
+
+}
+h2 {
+    font-size: 35px;
+    font-family: 'Gloock', serif;
+    color: purple;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 40px;
+
+}
+h3 {
+    font-size: 25px;
+    font-family: 'Gloock', serif;
+    text-align: center;
+    color: #263559;
+    padding-top: 30px;
+    
+}
+
+h4 {
+    font-size: 20px;
+    font-family: 'Gloock', serif;
+    text-align: left;
+    color: #263559;
+    padding-top: 30px;
+    
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    color: #263559;
+}
+
+
+/* Wrapper */
+
+#wrapper {
+    background-image: linear-gradient(rgba(137, 137, 137, 0.2), rgb(74, 0, 87)), url(../images/background3.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
+/* Content */
+#content {
+    border-radius: 10px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(228, 228, 228);
+    padding: 5%;
+}
+
+/* Header / Nav */
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 50px;
+    box-shadow: 0 1px 8px #ddd;
+}
+
+#nav-title {
+    margin-right: auto;
+    font-size: 1.5em;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #555;
+    transition: all 0.3s ease 0s;
+}
+
+nav a:hover {
+    color: #b2dfdb;
+}
+
+/* Title */
+
+#title {
+    width: 50%;
+    padding: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Section Titles */
+.header {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-left: 30%;
+
+}
+
+.header img {
+    width: 90px;
+    float: left;
+    padding-top: 6%;
+}
+
+.header h2 {
+    width: 280px;
+    float: left;
+}
+
+.header2 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-left: 30%;
+
+}
+
+.header2 img {
+    width: 60px;
+    float: left;
+    padding-top: 2%;
+}
+
+.header2 h2 {
+    width: 280px;
+    float: left;
+}
+
+.header3 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-left: 34%;
+
+}
+
+.header3 img {
+    width: 80px;
+    float: left;
+    padding-top: 4%;
+}
+
+.header3 h2 {
+    width: 220px;
+    float: left;
+}
+
+.header4 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-left: 30%;
+
+}
+
+.header4 img {
+    width: 60px;
+    float: left;
+    padding-top: 4%;
+}
+
+.header4 h2 {
+    width: 280px;
+    float: left;
+}
+
+
+
+
+/* Paragraph Styling */
+
+/* One paragraph */
+.one {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+.one2 {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+.one3 {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 80px;
+}
+
+/* next to an image*/
+.left1 {
+    float: left;
+    width: 20%;
+    padding-top: 5%;
+
+}
+
+.right {
+    float: right;
+    width: 60%;
+    padding-top: 20px;
+    padding-right: 10%;
+
+}
+
+.right1 {
+    float: right;
+    width: 20%;
+    padding-top: 5%;
+
+}
+
+.right2 {
+    float: right;
+    width: 15%;
+
+}
+
+.left {
+    float: left;
+    width: 60%;
+    padding-top: 20px;
+    padding-left: 10%;
+
+}
+
+.left2 {
+    float: left;
+    width: 15%;
+    padding-top: 3%;
+    padding-left: 3%;
+
+}
+
+.left3 {
+    float: left;
+    width: 60%;
+    padding-top: 20px;
+    padding-left: 10%;
+
+}
+
+.section {
+    padding-top: 3%;
+}
+
+.section2 {
+    padding-bottom:5%;
+}
+
+/* Intro */
+
+#intro h2 {
+    padding-top: 60px;
+}
+
+/* Example */
+#examples {
+    padding-top: 5%;
+}
+
+.three {
+    width: 27%;
+    float: left;
+    padding: 3%;
+}
+
+.three img {
+    width: 40%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/* Witches */
+
+/* Structure */
+#structure {
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+
+/* Maps */
+
+.key {
+    width: 245px;
+    float: left;
+}
+
+.mapv {
+    margin-left: 100px;
+    float: right;
+}
+
